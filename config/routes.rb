@@ -1,4 +1,8 @@
 PeaksSite::Application.routes.draw do
+	root :to => 'pages#home'
+	match '/school', :to => 'pages#school'
+	match '/career', :to => 'pages#career'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
