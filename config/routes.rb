@@ -1,4 +1,5 @@
 PeaksSite::Application.routes.draw do
+
 	root :to => 'pages#index'
 	match '/', :to => 'pages#index'
 	match '/school', :to => 'pages#school'
