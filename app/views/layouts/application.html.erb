@@ -7,20 +7,24 @@
   <%= csrf_meta_tags %>
 </head>
 
-<header>
-	<div>
-		<nav>
-			<ul>
-				<li><%= link_to("Home", root_path) %></li>
-				<li><%= link_to("School", school_path) %></li>
-				<li><%= link_to("Career", career_path) %></li>
-			</ul>
-		</nav>
-	</div>
-</header>
 <body>
+	<header class ="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<h2 class="banner">Keith Bartolotta</h2>
+				<nav>
+					<ul class="nav pull-right">
+						<li><%= link_to("Home", root_path) %></li>
+						<li><%= link_to("School", school_path) %></li>
+						<li><%= link_to("Career", career_path) %></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
 
-<%= yield %>
-
+	<div class="container">
+		<%= yield %>
+	</div>
 </body>
 </html>

@@ -1,6 +1,60 @@
+@import "bootstrap";
 
 
-body
-{
-	back-ground-color: #9acd32;
+/* General */
+
+html {
+	overflow-y: scroll;
+}
+
+body {
+	padding-top: 60px;
+}
+
+section {
+	overflow: auto;
+}
+
+textarea {
+	resize: vertical;
+}
+
+.center {
+	text-align: center;
+}
+
+.center h1 {
+	margin-bottom: 10px;
+}
+
+/* topography */
+
+h1, h2 {
+	line-height: 1;
+}
+
+h1 {
+	font-size: 2.3em;
+	letter-spacing: -2px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-weight: normal;
+	color: #999;
+}
+
+h2 {
+	font-size: 1.7em;
+	letter-spacing: -1px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-weight: normal;
+	color: #999;
+}
+
+.banner h2 {
+	float: left
+}
+
+.homeTitle {
+	float: left;
 }
