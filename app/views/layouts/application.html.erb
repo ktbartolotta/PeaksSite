@@ -1,11 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>PeaksSite</title>
+  <title>Keith Bartolotta | <%= yield(:title) %></title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
+
+<header>
+	<div>
+		<nav>
+			<ul>
+				<li><%= link_to("Home", root_path) %></li>
+				<li><%= link_to("School", school_path) %></li>
+				<li><%= link_to("Career", career_path) %></li>
+			</ul>
+		</nav>
+	</div>
+</header>
 <body>
 
 <%= yield %>
