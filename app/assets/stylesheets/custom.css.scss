@@ -19,6 +19,10 @@ textarea {
 	resize: vertical;
 }
 
+p {
+	text-align: justify;
+}
+
 .center {
 	text-align: center;
 }
@@ -57,4 +61,10 @@ h2 {
 
 .homeTitle {
 	float: left;
+	margin: 10px;
+}
+
+.otherPic {
+	float: right;
+	margin: 10px;
 }
